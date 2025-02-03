@@ -1,118 +1,192 @@
 <!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Zhea丨源码演示</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<meta name="keywords" content="个人引导页">
-		<meta name="description" content="个人引导页面">
-		<script src="js/jquery.min_1.js"></script>
-		<link rel="stylesheet" href="css/main.css">
-		<noscript><link rel="stylesheet" href="css/noscript.css"></noscript>
-	</head>
-	<body class="is-preload">
-	<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<img src="http://q1.qlogo.cn/g?b=qq&nk=3079709365&s=640" class="logo" alt="阿付" title="阿付">
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Zhea</h1>
-								<p>来自柚儿园的神奇UP</p><br>
-								<p>这是一段朴实的源码演示</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=y5jpyHVH6E59R0lHmy1L6nU91-OQvFBs&authKey=JkdBur5Be0FLyL0F7Bw6KN1niHe72uhQuUz8g2BlvkZQe%2BunisZp1FNiggQCZXQA&noverify=0&group_code=1042263345" target="_blank">柚儿园</a></li>
-								<li><a href="#licheng">发展历程</a></li>
-								<li><a href="https://space.bilibili.com/638045751" target="_blank">我的B站</a></li>
-								<li><a href="https://www.rainyun.com/zhea_" target="_blank">服务器推荐</a></li>
-							</ul>
-						</nav>
-					</header>
+<html lang="zh">
+<head>
+    <title>zw❤️cp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="keywords" content="Hi~">
+    <meta name="description" content="欢迎来到我的个人网站">
+    <script src="js/jquery.min_1.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <noscript><link rel="stylesheet" href="css/noscript.css"></noscript>
+    <style>
+        /* 保持原有CSS完全不变 */
+        body { font-family: Arial, sans-serif; }
+        .modal { display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.5); }
+        .modal-content { background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+        .close { color: #aaa; float: right; font-size: 28px; font-weight: bold; }
+        .close:hover, .close:focus { color: black; text-decoration: none; cursor: pointer; }
+        .audio-player { margin: 20px 0; text-align: center; }
+        .audio-player audio { width: 100%; max-width: 400px; border-radius: 15px; background-color: #FFC0CB; }
+        .glow-text { font-size: 36px; color: #333; text-shadow: 0 0 10px #FFC0CB; }
+        .image-container { display: flex; justify-content: center; align-items: center; gap: 15px; margin: 20px 0; }
+        .image-container img { max-width: 200px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
+    </style>
+</head>
+<!-- 修复body onload语法错误 -->
+<body class="is-preload">
 
-				<!-- Main -->
-					<div id="main">
-						<!-- english -->
-							<article id="licheng">
-								<ul>
-									<li><h2>发展历程</h2></li>
-									<li>
-										<h3>
-											2017年7月10日
-										</h3>
-										<p>
-											都在摸鱼
-										</p>
-									</li>
-									<li>
-										<h3>
-											2018年8月11日
-										</h3>
-										<p>
-											遇到第一个网友
-										</p>
-									</li>
-									<li>
-										<h3>
-											2019年3月1日
-										</h3>
-										<p>
-											越来越多的网友
-										</p>
-									</li>
-									<li>
-										<h3>
-											2020年2月19日
-										</h3>
-										<p>
-											建立大群
-										</p>
-									</li>
-									<li>
-										<h3>
-											2021年3月8日
-										</h3>
-										<p>
-											成立柚儿园
-										</p>
-									</li>
-									<li>
-										<h3>
-											2022年7月3日
-										</h3>
-										<p>
-											一群瓦解
-										</p>
-									</li>
-									<li>
-										<h3>
-											未来可期
-										</h3>
-										<p><a href="#">返回</a></p>
-									</li>
-								</ul>
-							</article>
-					</div>
- 
+<!-- 保持原有DOM结构完全不变 -->
+<div id="wrapper">
+    <header id="header">
+        <div class="logo">
+            <div class="image-container">
+                <img src="http://mms1.baidu.com/it/u=1739917255,3251353381&fm=253&app=138&f=JPEG?w=400&h=400" class="logo" alt="Meeat" title="Meeat">
+                <img src="http://mms0.baidu.com/it/u=179299710,1285240896&fm=253&app=138&f=JPEG?w=400&h=400" class="logo" alt="Meeat" title="Meeat">
+            </div>
+        </div>
+        <div class="content">
+            <div class="inner">
+                <h1>zw❤️cp</h1>
+                <p class="glow-text" id="time-count">哦也~</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="QQ群" target="_blank">暂未添加</a></li>
+                <li><a href="#licheng">爱情故事</a></li>
+                <li><a href="MET PVZ杂交版插件 辅助 正式版V1.2.7z" download>我的作品</a></li>
+                <li><a href="#">暂未添加</a></li>
+            </ul>
+        </nav>
+    </header>
 
-			</div>
+    <article id="licheng">
+    <h2>爱情故事</h2>
+    <ul class="love-timeline">
+        <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <h3>2022年1月25日 · 初遇</h3>
+            <p>冬夜的风裹着星子掠过窗棂，两个轨迹在数字海洋中悄然交汇。那句"你好呀"像一粒种子，落在时光的土壤里。</p>
+        </li>
 
-		<!-- BJ -->
-			<div id="bg">
-			</div>
+        <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <h3>2022年1月27日 · 萌芽</h3>
+            <p>48小时的星移物换，我们找到了共享银河的频率。对话框里绽放的月见草，预告着故事的第二章。</p>
+        </li>
 
-		<!-- Scripts -->
-			<script src="js/jquery.min.js"></script>
-			<script src="js/browser.min.js"></script>
-			<script src="js/breakpoints.min.js"></script>
-			<script src="js/util.js"></script>
-			<script src="js/main.js"></script>
-			<script type="text/javascript">document.oncontextmenu=function(t){window.event&&(t=window.event);try{var e=t.srcElement;return"INPUT"==e.tagName&&"text"==e.type.toLowerCase()||"TEXTAREA"==e.tagName?!0:!1}catch(n){return!1}},document.onpaste=function(t){window.event&&(t=window.event);try{var e=t.srcElement;return"INPUT"==e.tagName&&"text"==e.type.toLowerCase()||"TEXTAREA"==e.tagName?!0:!1}catch(n){return!1}},document.oncopy=function(t){window.event&&(t=window.event);try{var e=t.srcElement;return"INPUT"==e.tagName&&"text"==e.type.toLowerCase()||"TEXTAREA"==e.tagName?!0:!1}catch(n){return!1}},document.oncut=function(t){window.event&&(t=window.event);try{var e=t.srcElement;return"INPUT"==e.tagName&&"text"==e.type.toLowerCase()||"TEXTAREA"==e.tagName?!0:!1}catch(n){return!1}},document.onselectstart=function(t){window.event&&(t=window.event);try{var e=t.srcElement;return"INPUT"==e.tagName&&"text"==e.type.toLowerCase()||"TEXTAREA"==e.tagName?!0:!1}catch(n){return!1}};
-			</script>
-	</body>
+        <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <h3>2023年4月1日 · 迷雾</h3>
+            <p>愚人节的雨下了整整三个月，沉默在对话框里筑起玻璃幕墙。我守着时差数秒针，却数不清星光黯淡的刻度。</p>
+        </li>
+
+        <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <h3>2023年7月 · 虹现</h3>
+            <p>蝉鸣撕开盛夏的茧，某个午夜电流重新接通。我们小心地擦拭记忆琥珀，发现星光从未真正离开。</p>
+        </li>
+
+        <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <h3>2024年4月23日 · 蝶变</h3>
+            <p>春樱纷扬的午夜，心跳声终于震碎最后的胆怯。当"愿意"两个字点亮屏幕，全宇宙的星辰都落在我的眼眶。</p>
+        </li>
+
+        <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <h3>2024年5月18日 · 初绽</h3>
+            <p>爆米花的甜香裹着影院蓝光，生日烛火映亮你眼中的银河。我们收集了无数个"第一次"，装订成青春最璀璨的标本。</p>
+        </li>
+
+        <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <h3>2024年6月8日 · 朝暮</h3>
+            <p>穿过三百六十五次日升月落，终于让想象中你的轮廓染上真实的温度。校门口那株梧桐记得，树影怎样描摹我们重逢的剪影。</p>
+        </li>
+
+        <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <h3>2024年7月28日 · 夜航</h3>
+            <p>信号灯突然暗掉的夜晚，我在情绪迷宫里失了方向。发给星空的十四行诗，句尾都挂着未落的泪滴。</p>
+        </li>
+
+        <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <h3>2024年8月1日 · 辰星</h3>
+            <p>第一百次地球自转时，我们收集了所有晨昏线的光，熔铸成永不锈蚀的承诺。宇宙的秒针在此刻永恒停驻。</p>
+        </li>
+    </ul>
+
+    <div class="love-footnote">
+        <p>📜 持续书写中 · 我们的故事永远留有下一章</p>
+        <div class="seal-wrap">
+            <div class="wax-seal"></div>
+        </div>
+    </div>
+</article>
+            
+            <div class="audio-player">
+                <h3>我爱你cp</h3>
+                <audio id="audio" controls>
+                    <source src="your-audio-file.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频元素。
+                </audio>
+            </div>
+            <p><a href="#">返回</a></p>
+        </article>
+    </div>
+</div>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h2>欢迎见证我的爱情故事</h2>
+        <p>感谢您的访问，希望您能喜欢这里的内容！</p>
+    </div>
+</div>
+
+<div id="bg"></div>
+
+<!-- 保持脚本引用顺序不变 -->
+<script src="js/jquery.min.js"></script>
+<script src="js/browser.min.js"></script>
+<script src="js/breakpoints.min.js"></script>
+<script src="js/util.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+// 修复后的JavaScript代码
+document.addEventListener("DOMContentLoaded", function() {
+    // 时间计算功能
+    function updateTimeCount() {
+        const startDate = new Date('2024-04-23T21:12:35');
+        const now = new Date();
+        const timeDiff = now - startDate;
+
+        const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        const hoursDiff = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutesDiff = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+        const secondsDiff = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+        document.getElementById('time-count').textContent = 
+            `相爱${daysDiff} 天 ${hoursDiff} 小时 ${minutesDiff} 分 ${secondsDiff} 秒了哦~`;
+    }
+
+    // 模态框功能
+    const modal = document.getElementById("myModal");
+    const closeModal = document.getElementById("closeModal");
+
+    function showModal() {
+        modal.style.display = "block";
+    }
+
+    closeModal.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    // 初始化功能
+    updateTimeCount();
+    setInterval(updateTimeCount, 1000);
+    showModal();
+});
+</script>
+</body>
 </html>
